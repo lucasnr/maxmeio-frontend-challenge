@@ -1,0 +1,90 @@
+.header .header__background {
+  background-color: rgba(0, 0, 0, 0.375);
+  padding: 1.5rem 0px;
+  position: relative;
+}
+
+.header .header__background::before {
+  background-image: url(../img/background.png);
+  background-position: center top;
+  background-size: cover;
+  content: ' ';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.header .header__logo {
+  width: 11rem;
+}
+
+.header .header__form {
+  position: relative;
+}
+
+.header .header__form input {
+  background-color: transparent !important;
+  border: 0.125rem solid rgba(255, 255, 255, 0.875) !important;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.875);
+  font-size: 0.875rem;
+  padding-left: 1.25rem;
+  padding-right: 2.75rem;
+}
+
+.header .header__form input::placeholder {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header .header__form .header__form__icon {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header .header__navbar {
+  background-color: #318c4d;
+  font-size: 0.875rem;
+}
+
+.header .header__navbar ul li a:focus,
+.header .header__navbar ul li a:hover {
+  color: inherit;
+}
+
+.header .navbar-toggler {
+  border: 0.125rem solid rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.75rem;
+}
+
+.header .header__social-media li a {
+  font-size: 1.25rem;
+  padding: 0.25rem;
+}
+
+@media (min-width: 992px) {
+  .header .navbar {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .header .navbar .nav-link {
+    border-bottom: 0.25rem solid transparent;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .header .navbar .nav-item.active .nav-link {
+    border-bottom-color: #f9bd1f;
+  }
+}
