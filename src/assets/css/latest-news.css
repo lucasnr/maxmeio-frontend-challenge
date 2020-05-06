@@ -1,3 +1,8 @@
+#latest-news .row {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
 #latest-news .news {
   color: #656565;
   padding-left: 0.5rem;
