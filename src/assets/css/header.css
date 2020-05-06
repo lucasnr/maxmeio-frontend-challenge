@@ -59,6 +59,7 @@
 .header .header__navbar ul li a:focus,
 .header .header__navbar ul li a:hover {
   color: inherit;
+  border-bottom-color: #b44;
 }
 
 .header .navbar-toggler {
