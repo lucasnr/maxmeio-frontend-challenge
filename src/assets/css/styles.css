@@ -41,6 +41,14 @@ table {
   display: flex;
 }
 
+.title {
+  color: #706f6f;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
 @media (min-width: 1200px) {
   .container,
   .container-lg,
