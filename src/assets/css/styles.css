@@ -49,11 +49,11 @@ table {
   text-transform: uppercase;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .container,
   .container-lg,
   .container-md,
   .container-sm {
-    max-width: 992px !important;
+    max-width: 1050px !important;
   }
 }

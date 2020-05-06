@@ -25,8 +25,16 @@
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/news.css" />
     <link rel="stylesheet" href="./assets/css/latest-news.css" />
+    <link rel="stylesheet" href="./assets/css/album.css" />
   </head>
   <body>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v7.0"
+    ></script>
+
     <header class="header">
       <div class="header__background">
         <div
@@ -177,7 +185,7 @@
         </div>
       </section>
 
-      <section class="pt-5 container-lg" id="latest-news">
+      <section class="pt-5 container-md" id="latest-news">
         <h2 class="title">Últimas notícias</h2>
         <div class="row">
           <figure class="col-sm-6 col-lg-3 news">
@@ -259,7 +267,65 @@
         </div>
       </section>
 
-      <section class="py-5"></section>
+      <section class="py-5 container-md" id="album">
+        <div class="row m-0">
+          <div class="col-12 col-lg-8 p-0">
+            <h2 class="title">Álbum de fotos</h2>
+            <div class="row m-0">
+              <div class="col-12 col-sm-6 m-0 px-0 pr-sm-2 pr-lg-3">
+                <figure class="photo">
+                  <img src="./assets/img/album1.jpg" alt="Foto de uma câmara" />
+                  <figcaption class="photo__title-container">
+                    <h4 class="photo__title">
+                      É simplesmente uma simulação de texto da indústria
+                      tipográfica
+                    </h4>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="col-12 col-sm-6 m-0 px-0 pl-sm-2 pl-lg-0 pr-lg-3">
+                <figure class="photo">
+                  <img
+                    src="./assets/img/album2.jpg"
+                    alt="Foto de um estudante sorrindo"
+                  />
+                  <figcaption class="photo__title-container">
+                    <h4 class="photo__title">
+                      É simplesmente uma simulação de texto da indústria
+                      tipográfica
+                    </h4>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 mt-4 mt-lg-0 col-lg-4 pl-0 pr-lg-0">
+            <h2 class="title">Facebook</h2>
+
+            <div
+              class="fb-page m-auto"
+              data-href="https://www.facebook.com/cmnatrn/"
+              data-tabs="timeline"
+              data-width="500"
+              data-height="250"
+              data-small-header="false"
+              data-adapt-container-width="true"
+              data-hide-cover="false"
+              data-show-facepile="true"
+            >
+              <blockquote
+                cite="https://www.facebook.com/cmnatrn/"
+                class="fb-xfbml-parse-ignore"
+              >
+                <a href="https://www.facebook.com/cmnatrn/"
+                  >Câmara Municipal de Natal</a
+                >
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script

@@ -1,0 +1,28 @@
+#album .photo {
+  height: 15.625rem;
+  position: relative;
+}
+
+#album .photo img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  width: 100%;
+}
+
+#album .photo .photo__title-container {
+  background-color: rgba(49, 140, 77, 0.89);
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  width: 100%;
+}
+
+#album .photo .photo__title {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0px;
+  word-break: break-all;
+}
