@@ -1,0 +1,22 @@
+main {
+  padding: 3rem 0px;
+}
+
+.institutional img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.institutional .institutional__title {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.institutional .institutional__text {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
