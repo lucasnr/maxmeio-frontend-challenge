@@ -40,6 +40,16 @@
   text-transform: uppercase;
 }
 
+.header .header__form input:-ms-input-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header .header__form input::-ms-input-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+}
+
 .header .header__form .header__form__icon {
   background: none;
   border: none;
