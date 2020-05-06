@@ -1,0 +1,35 @@
+.footer {
+  background-color: #373737;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.25);
+  margin-top: 0px;
+}
+
+.footer .footer__social-media li a {
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.footer .footer__navbar .nav-link {
+  font-size: 0.875rem;
+  padding: 0.375rem;
+}
+
+.footer a:hover,
+.footer a:hover {
+  background-color: rgba(0, 0, 0, 0.375);
+  color: inherit;
+}
+
+.footer .footer__contact {
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 992px) {
+  .footer .footer__navbar .nav-link {
+    padding: 1rem 0.5rem;
+  }
+}
